@@ -35,7 +35,7 @@ else if (hour > currentHour) {
 else {
     $(this).css('background-color', 'red');
 }
-// we have entered the get localstorage item within the hour blocks to ensure they remain on the page when we click away
+
 var task = localStorage.getItem('hour' + hour);
 
 $(this).val(task);
